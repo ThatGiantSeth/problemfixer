@@ -1,8 +1,7 @@
 #include <iostream>
 #include "Panic.h"
-#include "Trolo.h"
+#include "Eggs.h"
 #include "TryAgain.h"
-#include "Iridium.h"
 #include "InputY.h"
 
 int main() {

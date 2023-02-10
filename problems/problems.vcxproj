@@ -129,18 +129,16 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="InputY.cpp" />
-    <ClCompile Include="Iridium.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Panic.cpp" />
-    <ClCompile Include="Trolo.cpp" />
+    <ClCompile Include="Eggs.cpp" />
     <ClCompile Include="TryAgain.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="InputY.h" />
-    <ClInclude Include="Iridium.h" />
     <ClInclude Include="Panic.h" />
     <ClInclude Include="resource.h" />
-    <ClInclude Include="Trolo.h" />
+    <ClInclude Include="Eggs.h" />
     <ClInclude Include="TryAgain.h" />
   </ItemGroup>
   <ItemGroup>

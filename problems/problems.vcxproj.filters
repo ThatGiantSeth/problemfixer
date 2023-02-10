@@ -21,16 +21,13 @@
     <ClCompile Include="Panic.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Trolo.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="TryAgain.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Iridium.cpp">
+    <ClCompile Include="InputY.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="InputY.cpp">
+    <ClCompile Include="Eggs.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -38,19 +35,16 @@
     <ClInclude Include="Panic.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Trolo.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="TryAgain.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Iridium.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="InputY.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Eggs.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

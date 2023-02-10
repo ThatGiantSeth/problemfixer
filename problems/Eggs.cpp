@@ -2,6 +2,8 @@
 #include <chrono>
 #include <thread>
 #include <string>
+#include <windows.h>
+#include <shellapi.h>
 
 using namespace std;
 using namespace std::this_thread;
@@ -82,4 +84,9 @@ void Trolo() {
 	else {
 		cout << "whatever man." << endl;
 	}
+}
+
+void Iridium() {
+	//opens browser to iridium coins video
+	ShellExecute(0, 0, L"https://www.youtube.com/watch?v=EuIcDAevwuI", 0, 0, SW_SHOW);
 }
