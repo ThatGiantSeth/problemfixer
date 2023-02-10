@@ -139,8 +139,12 @@
     <ClInclude Include="InputY.h" />
     <ClInclude Include="Iridium.h" />
     <ClInclude Include="Panic.h" />
+    <ClInclude Include="resource.h" />
     <ClInclude Include="Trolo.h" />
     <ClInclude Include="TryAgain.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="fixyourproblems.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

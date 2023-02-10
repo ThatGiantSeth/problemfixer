@@ -4,16 +4,22 @@
 using namespace std;
 
 void Panic() {
+	//i know this code sucks
 	string txt;
 	string notDone = "y";
 	int factNum = 0;
 	cout << endl << "Now it\'s time to panic!" << endl << endl << "Here is a random thing to distract you." << endl;
+	//loop continues until user types anything except for "y"
 	while (notDone == "y") {
+		//adds one to the "times used" counter variable
 		factNum++;
 		if (notDone == "y") {
+			//generates random numbers for use in a. picking which string to output and b. a number between 69 and 420
 			int randNum = rand() % 9;
 			int sixNine = rand() % 351 + 69;
+			// this is just to separate the outputs a little bit
 			cout << endl << "-" << endl << "-" << endl << "-" << endl << endl;
+			//different string based on which number the random generator ends up on
 			switch (randNum) {
 			case 0:
 				txt = "Tired of getting rich only to find your diamonds have decreased in value?\nWant a new currency whose value is about to shoot up?\nStay ahead of the curve with Iridium Coins by Large Cube Inc.\nIridium Coins are not a scam, and they will never give you up or let you down.\nThey are the most useful currency you can buy.";
@@ -46,10 +52,12 @@ void Panic() {
 				txt = "Vaporeon is objectively the best Pokemon for... reasons.";
 				break;
 			}
+			//just outputting chosen string and "times used" counter
 			cout << txt << endl << endl << "(Times Used: " << factNum << ")" << endl;
 			cout << endl << "Would you like another? (y or n)" << endl;
 			cin >> notDone;
 		}
+		//if user types "n"
 		if (notDone == "n") {
 			cout << "Ok. Bye." << endl;
 
